@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/f022136162.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+
+    <style>
+    	.fab {
+  			vertical-align: center;
+  			margin-right: 10px;
+		}
+		.fas{
+			vertical-align: center;	
+		}
+		.head{
+    		z-index: 0;
+    		text-align: center;
+    		line-height:450px;
+    		font-size: 60px;
+    		font-weight: : bold;
+    		color: #fffacd;
+    		width: 100%;
+    		height: 450px;
+    		background-color: #b0c4de;
+    		background-image: url("照片位置");
+　			background-repeat:no-repeat;
+    	}
+    	img{
+    		position: relative; left: 43%;top: -100px;
+    		border-radius: 50%;
+    		border:3px solid #c0c0c0;
+    		z-index: 1;
+    		height: 200px;
+    		width: 200px;
+    	}
+    	.about_me{
+    		position: relative; left: 50%;
+    		margin-left: -150px;
+    		margin-top: 50px;
+			text-align: center
+    		height: 800px;
+    		width: 300px;
+    	}
+    </style>
+  </head>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="#" style="margin-left: 30px">Lovely Cat</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavDropdown" style="text-align: center; width: 1000px">
+    		<ul class="navbar-nav" style="float:left; position:relative;left:22%;">
+      			<li class="nav-item" style="margin-left:60px">
+        			<a class="nav-link" href="#about_me">ABOUT <span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item" style="margin-left:60px">
+        			<a class="nav-link" href="#skills">SKILLS</a>
+      			</li>
+      			<li class="nav-item" style="margin-left:60px">
+        			<a class="nav-link" href="#project">PPORJECTS</a>
+      			</li>
+      			<li class="nav-item" style="margin-left:60px">
+        			<a class="nav-link" href="#contact">CONTACT</a>
+      			</li>
+    		</ul>
+  		</div>
+  		
+  		<div style="position: absolute; right: 20px">
+			 <i class="fab fa-airbnb fa-2x"></i>
+			 <i class="fab fa-app-store fa-2x"></i>
+			 <i class="fas fa-anchor fa-2x"></i>
+		  </div>
+	</nav>
+	<div class="head">
+		I'm a cute cat
+	</div>
+	<img src="001-lion.svg" alt="...">
+	<divid\\ id="about_me">
+		<p style="font-size: 36px; font-weight: bold; text-align: center;">About me</p>
+		<div align= "center">hello~~~</div>
+	</div>
+	<div id="skills">
+		<p style="font-size: 36px; font-weight: bold; text-align: center;">Skills</p>
+		<div>
+      <div style="position: absolute; left: 15%; width: 256px">
+        <canvas id="myChart" width="256" height="256"></canvas>
+      </div>
+      <div align="center" style="width: 256px; position: absolute; left: 50%; margin-left: -128px">
+        <canvas id="myChart1" width="256" height="256"></canvas>
+      </div>
+      <div style="position: absolute; left: 85%; width: 256px; margin-left: -256px">
+        <canvas id="myChart2" width="256" height="256"></canvas>
+      </div>
+    </div>
+	</div>
+	<div id="project" style="margin-top: 300px;">
+		<p style="font-size: 36px; font-weight: bold; text-align: center;">Projects</p>
+		<div align= "center">hello~~~</div>
+	</div>
+	<div id="contact">
+		<p style="font-size: 36px; font-weight: bold; text-align: center;">Contact</p>
+		<div align= "center">E-mail: b05611018@ntu.edu.tw</div>
+	</div>
+
+</body>
+</html>
